@@ -1,0 +1,25 @@
+.container{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;
+    gap: 10px; */
+    display: grid;
+    grid-auto-columns: 150px;
+    grid-auto-rows: 100px;
+    gap: 20px;
+    grid-template-areas: 
+    "box5 box5 box3"
+    "box4 box1 box3"
+    "box4 box2 box2"
+    ;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 52, 104);
+    color: aliceblue;
+    /* width: 150px; */
+    /* height: 150px; */
+    border: 3px solid gray;
+}
