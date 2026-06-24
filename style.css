@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d16168c;
+}
+header{
+    background-color: #411322a9;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover{
+    color: rgb(100, 100, 68);
+}
+section{
+    background-color: rgba(110, 92, 93, 0.644);
+    margin-left: 300px;
+    padding:10px;
+    border-radius: 10px;
+    width: 60%;
+    border: 1px solid black;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+article{
+    padding: 15px;
+    border-radius: 10px;
+}
+button{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: beige;
+    color: black;
+}
+.skill-list{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+.edu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.project-header{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    border-bottom: 2px solid rgb(10, 2, 2);
+    padding-bottom: 5px;
+    width:auto;
+}
